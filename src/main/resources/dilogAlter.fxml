@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="112.0" prefWidth="207.0" xmlns="http://javafx.com/javafx/11.0.14-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxspring.Controller.fxmlController">
+   <children>
+      <Pane layoutX="3.0" layoutY="2.0" prefHeight="107.0" prefWidth="196.0">
+         <children>
+            <Label layoutX="72.0" layoutY="46.0" text="查无此人!" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

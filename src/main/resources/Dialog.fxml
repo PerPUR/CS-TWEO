@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<DialogPane contentText="请按正确格式输入" headerText="提示" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="135.0" prefWidth="208.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fxspring.Controller.fxmlController">
+    <header>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="251.0">
+         <children>
+            <Label fx:id="dialog" layoutX="35.0" layoutY="41.0" prefHeight="50.0" prefWidth="138.0" text="     请正确的输入内容" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+               <textFill>
+                  <RadialGradient centerX="0.5" centerY="0.48863639253558533" radius="0.5">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </RadialGradient>
+               </textFill>
+            </Label>
+         </children></AnchorPane>
+    </header>
+</DialogPane>
